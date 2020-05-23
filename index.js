@@ -17,5 +17,3 @@ function superbowlWin(record) {
   }
   return undefined
 }
-
-
