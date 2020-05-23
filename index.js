@@ -11,9 +11,9 @@ const record = [
   //...
 ]
 
-function superbowlWin(record) {
-  if record.find(function(s) { result s === "W"})  {
-    return record.find(function(s) { result s === "W"}).year
+function superbowlWin(record){
+  if (record.find(s => s.result === "W")){
+    return record.find(s => s.result === "W").year
   }
-  return undefined
+    return undefined
 }
